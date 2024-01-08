@@ -349,7 +349,9 @@ hr {
 
 /* -----footer section ends----- */
 
-#coming-soon {}
+#coming-soon {
+    margin-top:100px;
+}
 
 .coming-soon {
     display: flex;
