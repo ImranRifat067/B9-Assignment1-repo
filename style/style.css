@@ -280,7 +280,7 @@ button {
 
 /* ------footer start here----- */
 footer {
-    margin-top:100px;
+    margin-top: 100px;
     background-color: #070211;
     height: 695px;
 }
@@ -299,7 +299,7 @@ footer {
 
     display: flex;
     justify-content: space-between;
-    margin:120px 0 50px 0;
+    margin: 120px 0 50px 0;
 }
 
 .footer-container .contact-container p {
@@ -309,8 +309,8 @@ footer {
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
-    display:flex;
-    gap:16px;
+    display: flex;
+    gap: 16px;
 }
 
 .footer-container .contact-container a {
@@ -318,23 +318,23 @@ footer {
     font-size: 24px;
     font-weight: 500;
     text-decoration: none;
-    display:flex;
-    gap:16px;
-    margin-top:10px;
+    display: flex;
+    gap: 16px;
+    margin-top: 10px;
 
 }
 
 .footer-container .socialMdia-link {
     display: flex;
     justify-content: center;
-    margin:48px 0;
-    gap:23px;
+    margin: 48px 0;
+    gap: 23px;
 }
 
 .footer-container .copyright {
     display: flex;
     justify-content: space-between;
-    margin:50px 0 150px 0;
+    margin: 50px 0 150px 0;
 }
 
 .footer-container .copyright p {
@@ -343,4 +343,81 @@ footer {
     font-weight: 500;
 }
 
+hr {
+    background-color: black;
+}
+
 /* -----footer section ends----- */
+
+#coming-soon {}
+
+.coming-soon {
+    display: flex;
+    height: 480px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.coming-soon .coming-soon-text .coming-soon-offer {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.coming-soon .coming-soon-text {
+    max-width: 400px;
+}
+
+.coming-soon .coming-soon-text * {
+    margin-bottom: 22px;
+}
+
+.coming-soon .coming-soon-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px
+}
+
+.coming-soon .coming-soon-text h2 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.coming-soon .coming-soon-img {
+    border: 35px solid transparent;
+    border-radius: 50%;
+}
+
+.coming-soon .coming-soon-img-border {
+    border: 15px solid red;
+    border-radius: 50%
+}
+
+.coming-soon .coming-soon-div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 200px;
+
+}
+
+.coming-soon .coming-soon-div3 .year {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.coming-soon .coming-soon-div3 .text {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.coming-soon .coming-soon-div3 img {
+    max-width: 144px;
+}
